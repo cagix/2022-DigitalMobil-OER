@@ -6,7 +6,7 @@ In 2021, I revised the teaching materials in three of my courses and converted t
 
 This presentation will be given at the DAAD-Stammtisch on 24.02.2022 and is published in German language.
 
-[[Slides]]()
+[[Slides]](slides.pdf)
 [[Video]](https://youtu.be/qnhLQzEyNrA)
 
 These projects are involved:
