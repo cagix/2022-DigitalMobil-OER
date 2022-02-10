@@ -1,0 +1,23 @@
+name: SLIDES
+on:
+  # push on master branch: create all slides
+  push:
+    branches: [master]
+  # manually triggered: create all slides
+  workflow_dispatch:
+
+
+jobs:
+  slides:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - uses: ./.github/actions/alpine-pandoc-hugo
+        with:
+          make-target: 'make slides'
+      - uses: actions/upload-artifact@v2
+        with:
+          path: slides.pdf
+          retention-days: 1
