@@ -1,0 +1,25 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: My experiences with OER
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Carsten
+    family-names: Gips
+    email: cagix@hsbi.de
+    affiliation: HSBI
+    orcid: 'https://orcid.org/0000-0002-4230-9060'
+repository-code: 'https://github.com/cagix/2022-DigitalMobil-OER'
+abstract: >-
+  In 2021, I revised the teaching materials in three of my
+  courses and converted them to OER. In this presentation I
+  would like to share my experiences.
+
+
+  This presentation will be given at the DAAD-Stammtisch on
+  24.02.2022 and is published in German language.
+license: CC-BY-SA-4.0
